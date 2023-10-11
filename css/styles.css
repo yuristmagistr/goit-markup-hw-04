@@ -433,7 +433,7 @@ padding: 32px 0;
 .portfolio-cover-block {
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: 0; */
     padding: 40px 32px;
     display: flex;
     align-items: center;
