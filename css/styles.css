@@ -215,6 +215,7 @@ ul {
     min-width: 169px;
     height: 56px;
     margin-top: 48px;
+    transition-property: color, background-color;
     /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -222,8 +223,8 @@ ul {
 .solutions-button:focus {
     background-color: #404BBF;
     color: #FFF;
-    transition background-color: 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: 250ms;
+    transition:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
