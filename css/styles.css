@@ -259,9 +259,6 @@ ul {
     box-sizing: border-box;
 }
 
-.box-item {
-}
-
 .solutions-icon {
 }
 
@@ -347,12 +344,12 @@ ul {
 padding: 32px 0;
 }
 
-.social-group {
-}
+/* .social-group {
+} */
 
 .team-social-list {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 24px;
 }
