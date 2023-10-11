@@ -216,14 +216,14 @@ ul {
     height: 56px;
     margin-top: 48px;
     /* transition-property: color, background-color; */
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .solutions-button:hover,
 .solutions-button:focus {
     background-color: #404BBF;
     color: #FFF;
-    /* transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
