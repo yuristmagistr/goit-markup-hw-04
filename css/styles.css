@@ -348,7 +348,7 @@ ul {
 .team-social-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-social-link {
@@ -368,6 +368,7 @@ ul {
 .team-social-item :hover,
 .team-social-item :focus {
     background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /** --------------------------------------------- */
@@ -537,7 +538,7 @@ padding-bottom: 100px;
 .footer-social-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .footer-social-link {
@@ -558,6 +559,7 @@ padding-bottom: 100px;
 .footer-social-item :hover,
 .footer-social-item :focus {
     background-color: #31D0AA;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /** --------------------------------------------- */
