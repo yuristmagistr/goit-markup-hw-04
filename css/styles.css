@@ -501,12 +501,14 @@ padding-bottom: 100px;
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+    /* gap: 120px; */
 }
 
 .footer-first {
     width: 264px;
     height: 112px;
+    margin-right: 120px
 }
 
 
@@ -574,16 +576,16 @@ padding-bottom: 100px;
     /* fill: #F4F4FD; */
     background-color: #4D5AE5;
     border-radius: 50%;
-    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon {
     fill: #F4F4FD;
 }
 
-/* .footer-social-item :hover,
+.footer-social-item :hover,
 .footer-social-item :focus {
     background-color: #31D0AA;
-} */
+}
 
 /** --------------------------------------------- */
