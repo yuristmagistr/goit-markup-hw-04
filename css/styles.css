@@ -358,6 +358,7 @@ padding: 32px 0;
 .team-social-item {
     width: 40px;
     height: 40px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link {
@@ -368,7 +369,7 @@ padding: 32px 0;
     height: 100%;
     background-color: #4D5AE5;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-social-icon {
